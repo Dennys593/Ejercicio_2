@@ -9,7 +9,6 @@ public class Main {
         a2.mostrar();
         a3.mostrar();
 
-        // Datos del teclado para el constructor principal (prueba la validacion)
         Scanner sc = new Scanner(System.in);
         System.out.print("Nombre del arma: ");
         String nombre = sc.nextLine();

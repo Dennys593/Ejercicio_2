@@ -3,7 +3,6 @@ public class Arma {
     private String tipo;
     private int dano;
 
-    // Constructor principal: el unico que asigna y valida
     public Arma(String nombre, String tipo, int dano) {
         this.nombre = nombre;
         this.tipo = tipo;
@@ -15,7 +14,7 @@ public class Arma {
             this.dano = dano;
         }
     }
-    // Sobrecarga: cada version delega con this(...) en el principal
+
     public Arma() {
         this("Sin nombre", "Cuerpo a cuerpo", 0);
     }
